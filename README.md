@@ -38,3 +38,6 @@ add_root_type  mutation
        route  graphiql-rails
 Gemfile has been modified, make sure you `bundle install`
 ```
+##. Query
+1. Create LinkType into types folder
+2. Add to Types::QueryType

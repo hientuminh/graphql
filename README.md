@@ -76,3 +76,12 @@ query {
 }
 
 ```
+6. Pagination
+```
+query {
+  allLinks(first: 1, skip: 2) {
+    description
+    id
+  }
+}
+```

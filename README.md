@@ -41,3 +41,38 @@ Gemfile has been modified, make sure you `bundle install`
 ##. Query
 1. Create LinkType into types folder
 2. Add to Types::QueryType
+3. Create User
+4. Signup User
+```
+mutation {
+  signinUser(email: {
+    email: "hientuminh@gmail.com"
+    password: "1234567"
+  }) {
+    token
+  }
+}
+```
+5. Filter
+```
+query {
+  allLinks(filter: {descriptionContains: "Test"}) {
+    description
+    id
+  }
+}
+
+query {
+  allLinks(filter: {
+    descriptionContains: "Best"
+    OR: {
+      urlContains: "Awesome"
+    }
+  }) {
+    url
+    description
+    id
+  }
+}
+
+```

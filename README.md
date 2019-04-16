@@ -85,3 +85,12 @@ query {
   }
 }
 ```
+
+##. Todo
+0. Add `protect_from_forgery with: :null_session` to use on Postman
+1. Create API like Facebook Graph API
+2. Change graph API to Graph Server
+3. Rails gets API from client and pass to Graph Server (No good)
+
+##. Resource
+1. https://cdn-images-1.medium.com/max/2000/0*WJwjXsb2KGSqv6kG.

@@ -12,8 +12,8 @@ class Resolvers::LinksSearch
   # inline input type definition for the advance filter
   class LinkFilter < ::Types::BaseInputObject
     argument :OR, [self], required: false
-    argument :description_contains, String, required: false
-    argument :url_contains, String, required: false
+    argument :descriptionContains, String, required: false
+    argument :urlContains, String, required: false
   end
 
   # when "filter" is passed "apply_filter" would be called to narrow the scope

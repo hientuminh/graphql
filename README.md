@@ -94,3 +94,4 @@ query {
 
 ##. Resource
 1. https://cdn-images-1.medium.com/max/2000/0*WJwjXsb2KGSqv6kG.
+2.

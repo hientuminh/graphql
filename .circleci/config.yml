@@ -2,7 +2,7 @@ version: 2
 jobs:
   build:
     docker:
-      - image: circleci/ruby:lastest
+      - image: circleci/ruby
     parallelism: 2
     steps:
       - run:

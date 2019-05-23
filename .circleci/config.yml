@@ -1,0 +1,25 @@
+version: 2
+jobs:
+  build:
+    docker:
+      - image: circleci/ruby
+    parallelism: 2
+    steps:
+      - run:
+          command: |
+            echo 'Skip'
+  test:
+    docker:
+      - image: circleci/ruby:lastest
+    parallelism: 2
+    steps:
+      - run:
+          command: |
+            echo 'Skip'
+
+workflows:
+  version: 2
+  build_and_save_cache:
+    jobs:
+      - build
+      - test

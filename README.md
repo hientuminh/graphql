@@ -1,5 +1,5 @@
 # README
-Build graphql with ruby o rails
+dBuild graphql with ruby o rails
 
 # Installation
 1. Fetch repo
